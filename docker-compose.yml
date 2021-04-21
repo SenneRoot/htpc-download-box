@@ -80,7 +80,7 @@ services:
       - TZ=${TZ} # timezone, defined in .env
       - PUID=${PUID}
       - PGID=${PGID}
-      - VERSION=docker
+      - VERSION=latest
       - UMASK_SET=022
     network_mode: host
     volumes:
